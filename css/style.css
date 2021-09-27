@@ -15,14 +15,14 @@ use the fonts in other ways in the font hierarchy etc. */
 /* change / delete some of these - note: all variables are listed twice */
 
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --bg-color: #e30615;
+  --link-color: #5db136;
+  --link-hover-color: #5ac0cc;
+  --color-4: #e6007e;
+  --color-5: #ffed00;
 
   --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --secondary-font: "Lato", serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
