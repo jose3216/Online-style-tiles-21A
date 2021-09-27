@@ -2,7 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,300&display=swap");
+
+@font-face {
+  font-family: "badaboom_bbregular";
+  src: url("badabb__-webfont.woff2") format("woff2"),
+    url("badabb__-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
@@ -21,7 +29,7 @@ use the fonts in other ways in the font hierarchy etc. */
   --color-4: #e6007e;
   --color-5: #ffed00;
 
-  --primary-font: "Open Sans", sans-serif;
+  --primary-font: "BadaBoom BB", sans-serif;
   --secondary-font: "Lato", serif;
   --main-text-color: #000;
 
@@ -53,15 +61,17 @@ footer {
 }
 
 .header-wrapper h1 {
+  font-family: lato, bold;
   font-size: 3rem;
   text-transform: uppercase;
-  letter-spacing: -2px;
+  letter-spacing: 1px;
   padding-right: 0.75em;
   font-weight: bold;
   color: white;
 }
 
 .header-wrapper h2 {
+  font-family: lato, regular;
   font-size: 1.6em;
   color: rgba(255, 255, 255, 0.95);
   font-weight: bold;
@@ -69,11 +79,13 @@ footer {
 }
 
 .header-wrapper h3 {
+  font-family: lato, regular;
   font-size: 1.2rem;
   font-style: italic;
 }
 
 .header-wrapper h4 {
+  font-family: lato, regular;
   font-size: 0.8rem;
 }
 
@@ -88,6 +100,7 @@ section {
 
 .section-heading {
   font-style: italic;
+  font-family: lato;
   font-size: 1.3rem;
   color: #777;
   margin: 0.5rem 0;
@@ -174,7 +187,7 @@ button {
   text-align: center;
   text-decoration: none;
   font: bold 1.25em/1 var(--primary-font);
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: white;
   text-transform: uppercase;
   text-shadow: 0px -1px 0px #0374a0;
@@ -196,7 +209,7 @@ button:focus-within {
 
 button:hover {
   background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+  transform: scale(2);
 }
 
 button:active {
@@ -210,11 +223,12 @@ button:active {
 .h1-sample {
   font-size: 2.4rem;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .h2-sample {
   font-family: var(--secondary-font);
-  font-style: italic;
+  font-weight: bold;
   font-size: 1.25rem;
 }
 
@@ -242,7 +256,7 @@ a {
 
 a:hover {
   color: var(--link-hover-color);
-  font-size: 4rem;
+  font-size: 1.3rem;
   background-color: var(--color-4);
   opacity: 0.1;
 }
