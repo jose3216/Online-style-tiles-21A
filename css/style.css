@@ -26,18 +26,6 @@ use the fonts in other ways in the font hierarchy etc. */
   --main-text-color: #000;
 
   --white-space: 1rem;
-
-  --bg-color: #000;
-  --link-color: #000;
-  --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
-
-  --primary-font: sans-serif;
-  --secondary-font: serif;
-  --main-text-color: #000;
-
-  --white-space: 2rem;
 }
 
 html {
